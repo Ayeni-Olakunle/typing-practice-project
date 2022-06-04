@@ -1,0 +1,98 @@
+.holdAll {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .holdAll2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .holdText {
+      width: 30%;
+      height: 80vh;
+      padding: 20px;
+      text-align: left;
+      box-shadow: 5px 5px 5px rgba(211, 211, 211, 0.642),
+        -5px -5px 5px rgba(211, 211, 211, 0.642);
+
+      .copy {
+        width: 100%;
+        height: 70vh;
+        outline: none;
+      }
+      .holdDiman {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .blockMan {
+        width: 22%;
+        height: 71%;
+        background-color: transparent;
+        position: absolute;
+      }
+      .removeButin2 {
+        padding: 10px 20px;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-top: 10px;
+        display: block;
+      }
+      .removeButin {
+        display: none;
+      }
+    }
+    .holdProgress {
+      width: 20%;
+      height: 80vh;
+      padding: 20px;
+      border: 2px solid rgba(211, 211, 211, 0.642);
+    }
+    .holdTyping {
+      width: 30%;
+      height: 80vh;
+      padding: 20px;
+      text-align: left;
+      box-shadow: 5px 5px 5px rgba(211, 211, 211, 0.642),
+        -5px -5px 5px rgba(211, 211, 211, 0.642);
+      .textarea {
+        width: 100%;
+        height: 90%;
+        outline: none;
+        overflow-y: scroll;
+      }
+      .textarea2 {
+        width: 100%;
+        outline: none;
+        border: 2px solid rgba(211, 211, 211, 0.642);
+        width: 100%;
+        height: 10%;
+        font-size: 15px;
+      }
+      .holdDisplay {
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .yes {
+        padding: 7px;
+        border: 1px solid green;
+        color: green;
+        margin: 5px;
+        height: fit-content;
+      }
+      .no {
+        padding: 7px;
+        border: 1px solid red;
+        color: red;
+        margin: 5px;
+        height: fit-content;
+      }
+    }
+  }
+}
